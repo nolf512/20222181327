@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     func configureUI() {
         setupUI()
-        view.backgroundColor = .green
+        view.backgroundColor = .yellow
     }
 
 }
