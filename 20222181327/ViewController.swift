@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var titel: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +25,7 @@ class ViewController: UIViewController {
     func configureUI() {
         setupUI()
         view.backgroundColor = .yellow
+        
     }
 
 }
