@@ -17,6 +17,7 @@ class ViewController: UIViewController {
 
     func setupUI() {
         print("setup")
+        print("###")
     }
     
     func configureUI() {
