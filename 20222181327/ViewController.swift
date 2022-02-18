@@ -12,11 +12,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        setupUI()
+        configureUI()
     }
 
     func setupUI() {
         print("setup")
+    }
+    
+    func configureUI() {
+        setupUI()
     }
 
 }
