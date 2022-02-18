@@ -8,12 +8,25 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var titel: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        configureUI()
     }
 
+    func setupUI() {
+        print("setup")
+        print("###")
+    }
+    
+    func configureUI() {
+        setupUI()
+        view.backgroundColor = .yellow
+        
+    }
 
 }
 
